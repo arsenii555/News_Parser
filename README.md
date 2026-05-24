@@ -20,10 +20,10 @@ pip install -r requirements.txt
 ## Запуск
 
 ```bash
-python wagon_cargo_parser.py # инкрементальный (только новые новости)
-python wagon_cargo_parser.py --pages 50 # первый полный сбор
-python wagon_cargo_parser.py --full # принудительный пересбор
-python wagon_cargo_parser.py --no-excel # без выгрузки в Excel
+python main.py # инкрементальный (только новые новости)
+python main.py --pages 50 # первый полный сбор
+python main.py --full # принудительный пересбор
+python main.py --no-excel # без выгрузки в Excel
 ```
 
 ## Механизм обновлений
